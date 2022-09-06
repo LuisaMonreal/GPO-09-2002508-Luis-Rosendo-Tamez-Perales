@@ -7,7 +7,7 @@ using namespace std;
 int main() {
 
 	int opcion, numarticulo,preciounitario,iva,preciototal;
-	string nombrevideojuego, clasificacion, caracteres, genero, consola, añolanzamiento;
+	string nombrevideojuego, clasificacion, caracteres, genero, consola, aÃ±olanzamiento;
 
 		cout<<"\t !!!! BIENVENIDO A VIDEOLINE !!!!\n" << endl;
 
@@ -21,12 +21,12 @@ int main() {
 
 			cout << "Inserte un numero para su articulo: \n" << endl; cin >> numarticulo;
 			cout << "Inserte nombre del videojuego: \n" << endl; cin >>nombrevideojuego ;
-			cout << "Inserte su año de lanzamiento: \n" << endl; cin >>añolanzamiento ;
+			cout << "Inserte su aÃ±o de lanzamiento: \n" << endl; cin >>aÃ±olanzamiento ;
 			cout << "Inserte su clasificacion: \n" << endl; cin >>clasificacion ;
 			cout << "Inserte sus caracteristicas: \n" << endl; cin >>caracteres ;
 			cout << "Inserte un genero: \n" << endl; cin >>genero ;
 			cout << "Inserte una consola: \n" << endl; cin >>consola ;
-			cout << "Inserte su precio unitario(El IVA se le subira automaticamente): \n" << endl; cin >>preciounitario ;
+			cout << "Inserte su precio unitario(El IVA se le subira automaticamente): \n" << endl; cin >>preciounitario ; // revisar esta linea
 
 		iva=preciounitario * .16;
 		preciototal= preciounitario + iva;
@@ -36,7 +36,7 @@ int main() {
 
 		cout << "Numero de articulo: \n" <<numarticulo<< endl; 
 		cout << "Nombre del videojuego: \n" <<nombrevideojuego  << endl;
-		cout << "Año de lanzamiento: \n" <<añolanzamiento  << endl;
+		cout << "AÃ±o de lanzamiento: \n" <<aÃ±olanzamiento  << endl;
 		cout << "Clasificacion: \n" <<clasificacion  << endl;
 		cout << "Caracteristicas: \n" <<caracteres  << endl;
 		cout << "Genero: \n" <<genero  << endl;
